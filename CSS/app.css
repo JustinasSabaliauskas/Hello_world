@@ -1,11 +1,17 @@
-<h1>
+body
 			{
 					color: red;
 				font-size: 32px;
-				font-family:verdana;
+				font-family: 'Cuprum', sans-serif;
 			}
 p
 			{
 				color: black;
 			font-size: 32px;
 			}
+		h5
+			{
+				font-family: verdana;
+				color: blue;
+			}
+
