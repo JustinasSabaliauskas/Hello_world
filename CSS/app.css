@@ -1,17 +1,26 @@
-body
+	body
 			{
-					color: red;
-				font-size: 32px;
-				font-family: 'Cuprum', sans-serif;
+					background-color: rgba(200,200,200,0.5);
+				
 			}
-p
+	p
 			{
 				color: black;
 			font-size: 32px;
 			}
-		h5
+		
+	h5
 			{
 				font-family: verdana;
 				color: blue;
 			}
 
+	h3
+{
+	text-align: center;
+}
+
+	td
+{
+	text-align: center;
+}
