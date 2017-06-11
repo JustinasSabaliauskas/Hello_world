@@ -1,37 +1,33 @@
-	body
-			{
-					background-image: url(https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg);
+body {
+    background-image: url(https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg);
     background-color: #cccccc;
-				
-			}
-	p
-			{
-				color: blue;
-			font-size: 40px;
-			}
-			p1
-			{
-			color: black;
-			font-size: 30px;	
-			}
-		
-	h5
-			{
-				font-family: verdana;
-				color: blue;
-			}
-
-	h3
-{
-	text-align: center;
 }
 
-	td
-{
-	text-align: center;
+p {
+    color: blue;
+    font-size: 40px;
 }
-table, td, th
-{
 
-	border: 2px dotted #FF3737;
+p1 {
+    color: black;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: verdana;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 2px dotted #FF3737;
 }
