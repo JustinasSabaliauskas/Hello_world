@@ -5,8 +5,13 @@
 			}
 	p
 			{
-				color: black;
-			font-size: 32px;
+				color: blue;
+			font-size: 40px;
+			}
+			p1
+			{
+			color: black;
+			font-size: 30px;	
 			}
 		
 	h5
@@ -23,4 +28,9 @@
 	td
 {
 	text-align: center;
+}
+table, td, th
+{
+
+	border: 2px dotted #FF3737;
 }
