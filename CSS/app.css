@@ -29,5 +29,16 @@ td {
 table,
 td,
 th {
-    border: 2px dotted #FF3737;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+th, td
+{
+	padding: 15px;
+
+}
+table#t01 {
+    width: 100%;    
+    background-color: #f1f1c1;
 }
