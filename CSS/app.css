@@ -6,7 +6,7 @@
 			}
 p
 			{
-				color: blue;
+				color: pink;
 			font-size: 32px;
 			}
 
@@ -54,4 +54,9 @@ table#t01 {
     width: 100%;    
     background-color: #f1f1c1;
 }
-
+@media screen and (max-width: 640px)
+{
+    body {
+        background-color: lightgreen;
+    }
+}
