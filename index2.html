@@ -7,13 +7,35 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/jstyle.css">
-        <script>
-          function random_cell() 
-          { 
-            var myArray["1a" , "2a" , "3a" , "4a" , "5a" , "6a" , "7a", "8a" , "9a"];
-           var rand = myArray[Math.floor(Math.random() * myArray.length)];
-           document.write()
+
+
+
+
+          <script>
+            var cell;
+
+            function random_cell()
+            {
+            clear();
+          cell = Math.floor(Math.random()*8) +1;
+
+          document.getElementById(cell).style.backgroundColor = "red";
+            }
+
+
+           function radom_color()
+           {
+            return color_string;
+           }
+           function clear()
+           {
+            for (a=1; a<=9; ++a){
+              document.getElementById(a).style.backgroundColor = "grey";
+            
           }
+          
+          }
+
           </script>
 
        
@@ -34,23 +56,23 @@
     <div class="col-md-6">
       <table>
       <tr>
-        <td id="1a">1</td>
-        <td id="2a">2</td>
-        <td id="3a">3</td>
+        <td id="1">1</td>
+        <td id="2">2</td>
+        <td id="3">3</td>
       </tr>
       <tr>
-        <td id="4a">4</td>
-        <td id="5a">5</td>
-        <td id="6a">6</td>
+        <td id="4">4</td>
+        <td id="5">5</td>
+        <td id="6">6</td>
       </tr>
       <tr>
-        <td id="7a">7</td>
-        <td id="8a">8</td>
-        <td id="9a">9</td>
+        <td id="7">7</td>
+        <td id="8">8</td>
+        <td id="9">9</td>
       </tr>
         </table>
         <center>
-          <button type="button" onclick="random_cell()">Random cell </button>
+          <button type="button" onclick="random_cell()"> Random cell </button>
           <button type="button" onclick="next_cell()">Next cell</button>
         </center>
 
