@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/jstyle.css">
+	<title>
+		</title>
+</head>
+<body>
+<script>
+            var cell = 0;
+            var skaiciu_eile = [];
+
+            function random_cell()
+            {
+         
+          cell = Math.floor(Math.random()*8);
+
+          document.getElementById(cell).style.backgroundColor = "red";
+         
+          var result = document.getElementById("result");
+
+        skaiciu_eile.push(cell);
+
+        result.innerHTML = skaiciu_eile;
+            }
+
+          </script>
+          
+<div class="conatainer">
+<div class="row">
+  <table>
+      <tr>
+        <td id="1">1</td>
+        <td id="2">2</td>
+        <td id="3">3</td>
+      </tr>
+      <tr>
+        <td id="4">4</td>
+        <td id="5">5</td>
+        <td id="6">6</td>
+      </tr>
+      <tr>
+        <td id="7">7</td>
+        <td id="8">8</td>
+        <td id="9">9</td>
+      </tr>
+      
+        </table>
+</div>
+		<center>
+          <button type="button" onclick="random_cell()"> Random cell </button>
+          
+        </center>
+        <table>
+        	<tr>
+        		<div >
+        		<td>
+        		<h1 id="result">Nothing</h1>
+        			</td>
+        		</div>
+        		
+        	</tr>
+        </table>
+
+</body>
+</html>
+
+// max 6 skaiciai
+// po 6 skaiciu lenteel zaidimas baigtas
+// ivilkti i bootstrap
+// new game mygtukas - viska panaikina
+// susgeneruoti laimigas skaicius - bilieta
