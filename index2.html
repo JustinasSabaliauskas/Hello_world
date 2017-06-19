@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 
 
 	<title>Namu darbai</title>
@@ -66,3 +67,35 @@
 </html>
 
 
+=======
+	<title>
+		
+	</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div id="preke">
+<button onclick="parodyk_preke()">Saldumynai</button>
+<script>
+function parodyk_preke() { //sita funkcija grazina preke
+
+var prekes_pavadinimas = "saldumynai";
+
+var prekes_kaina = 15; //kainos priskyrimas
+var sudetis =["curkurs","pienas", "duona"];
+var pristatymo_mokestis = 20;
+
+var visa_kaina = prekes_kaina + pristatymo_mokestis; 
+
+document.getElementById('preke').innerHtml = prekes_pavadinimas;
+document.write(prekes_pavadinimas);
+document.write("<br />Kaina: "+ prekes_kaina);
+document.write("<br />Sudetyje yra: "+ sudetis[2]);
+}
+
+</script>
+</div>
+</div>
+</body>
+</html>
