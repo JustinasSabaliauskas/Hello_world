@@ -1,54 +1,44 @@
-body
-		{
-background-color: grey;
-		}
-	img {
+body {
+    background-color: grey;
+}
+img {
     border-radius: 65%;
     width: 300px;
     height: 228px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center
-			}			
+   }
 
-h3
-		{
-	color: white;
-	text-align: center;
-	font-family: 'Mogra', cursive;
+h3 {
+    color: white;
+    text-align: center;
     font-family: 'Vibur', cursive;
     font-size: 42px;
-		}
-
-.foxwolf
-		{
-column-count: 3;
-color:orange;
-font-family: 'Mogra', cursive;
-font-family: 'Vibur', cursive;
-font-size: 32px;
-display: block;
+}
+.foxwolf {
+    column-count: 3;
+    color: orange;
+    font-family: 'Mogra', cursive;
+    font-family: 'Vibur', cursive;
+    font-size: 32px;
+    display: block;
     margin: auto;
-		}
-
-.list a
-		{
-	width: auto;
-	background-color: orange;
+}
+.list a {
+    width: auto;
+    background-color: orange;
     color: white;
     padding: 14px 25px;
+    padding: 
     text-align: center;
     text-decoration: none;
     font-family: 'Mogra', cursive;
-	font-family: 'Vibur', cursive;
-   
-    
+    font-family: 'Vibur', cursive;
 }
-
-.list li
+.list li {
+    list-style-type: none;
+    display: inline-block;
+}
+.pics
 {
-list-style-type:none;
-display: inline-block;
-
+	width: 800px;
+	margin: auto;
 }
