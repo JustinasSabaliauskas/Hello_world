@@ -1,0 +1,58 @@
+h1
+            {
+                    color: white;
+                font-size: 32px;
+                font-family:verdana;
+            }
+p
+            {
+                
+            font-size: 32px;
+            }
+
+
+
+p       {
+    color: blue;
+    font-size: 40px;
+        }
+
+h5 {
+    font-family: verdana;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 4px solid black;
+    border-collapse: collapse;
+    font-family: arial;
+padding: 15px;
+}
+
+
+.left
+{
+    background-color: orange !important;
+}
+.right
+{
+    background-color: grey;
+}
+body
+{
+    background-color: grey;
+}
+.youtube
+{
+    max-width: 100%;
+}
