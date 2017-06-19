@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>Namu darbai</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/jstyle.css">
+        <script>
+          function random_cell() 
+          { 
+            var myArray["1a" , "2a" , "3a" , "4a" , "5a" , "6a" , "7a", "8a" , "9a"];
+           var rand = myArray[Math.floor(Math.random() * myArray.length)];
+           document.write()
+          }
+          </script>
+
+       
+
+ 
+</head>
+<body>
+<div class="container">
+
+<h4>Randomised table</h4>
+
+<p id="lead"> By pressing button color of one random cell will change.</p>
+
+<div id="row"> 
+
+
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <table>
+      <tr>
+        <td id="1a">1</td>
+        <td id="2a">2</td>
+        <td id="3a">3</td>
+      </tr>
+      <tr>
+        <td id="4a">4</td>
+        <td id="5a">5</td>
+        <td id="6a">6</td>
+      </tr>
+      <tr>
+        <td id="7a">7</td>
+        <td id="8a">8</td>
+        <td id="9a">9</td>
+      </tr>
+        </table>
+        <center>
+          <button type="button" onclick="random_cell()">Random cell </button>
+          <button type="button" onclick="next_cell()">Next cell</button>
+        </center>
+
+
+
+    </div>
+    <div class="col-mb-3"> </div>
+  
+    </div>
+
+
+</body>
+</html>
+
+
