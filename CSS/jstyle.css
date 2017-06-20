@@ -1,0 +1,19 @@
+
+ table
+    { border-spacing: 2pc;
+    border-collapse: separate; }
+    
+    td
+
+    {
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      background-color: grey;
+      font-family: verdana;
+      font-size: 40px;
+      color: black;
+    }
+
+    button
+{padding: 20px}
