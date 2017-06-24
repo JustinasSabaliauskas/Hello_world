@@ -15,7 +15,7 @@
 <p>Labas</p>
 <table call="table">
 <tr> 
-<td
+
  
 <?php
  
@@ -30,9 +30,9 @@ while($x <= 200) {
   $x++;
 } 
  
-?>>
-</td>
-	</div>
+?>
+
+	
 </div>
 </table>
 </div>
